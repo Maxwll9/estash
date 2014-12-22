@@ -1,0 +1,395 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+
+p {
+  line-height: 30px;
+  font-size: 12px;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.quote {
+  font-size: 18px;
+}
+
+.green {
+  color: #6AC88B;
+}
+
+/* First section */
+.section-hello {
+  background-color: #6AC88B;
+  color: #fff;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 991px) {
+  .section-hello {
+    padding-bottom: 0;
+  }
+}
+
+.hello-background {
+  background-image: url(../images/backgrounds/devices.png);
+  background-repeat: no-repeat;
+  width: 462px;
+  height: 355px;
+}
+
+.hello-logo {
+  margin-bottom: 85px;
+}
+
+.section-hello .heading-title {
+  margin-bottom: 0;
+}
+
+.hello-text {
+  margin: 30px 0;
+}
+
+/* Section features */
+.section-features {
+  padding: 100px 0;
+}
+
+.section-heading {
+  margin-bottom: 80px;
+}
+
+.features-image {
+  padding: 50px;
+  display: inline-block;
+  background-color: #e3e3e3;
+  border-radius: 50%;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.features-block:hover {
+  transition: all .3s;
+}
+
+.features-block:hover .features-image {
+  background-color: #6AC88B;
+  color: #fff;
+
+  transition: all .3s;
+}
+
+.features-block:hover .features-heading {
+  color: #6AC88B;
+}
+
+/* Section awesome */
+.section-awesome {
+  background-color: #e3e3e3;
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media (min-width: 991px) {
+  .section-awesome {
+    padding-bottom: 0;
+  }
+}
+
+.awesome-features {
+  list-style: none;
+  line-height: 30px;
+
+  font-weight: 400;
+  font-size: 12px;
+
+  padding-left: 0;
+  margin-bottom: 30px;
+}
+
+.awesome-background {
+  background-image: url(../images/backgrounds/frames.png);
+  background-repeat: no-repeat;
+
+  width: 557px;
+  height: 355px;
+
+  margin-top: 40px;
+}
+
+/* Section testimonials */
+.section-testimonials {
+  padding-top: 100px;
+}
+
+.testimonials-heading {
+  color: #6AC88B;
+  padding-bottom: 40px;
+}
+
+.with-author {
+  padding-bottom: 40px;
+}
+
+.testimonials-dots {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  text-align: left;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonials-dots li {
+  float: left;
+  padding: 0 10px;
+}
+
+.testimonials-dots li a {
+  display: inline-block;
+  color: #000000;
+
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.testimonials-dots li a:hover {
+  color: #6AC88B;
+}
+
+.testimonials-dots .active a {
+  color: #6AC88B;
+}
+
+/* Section how */
+.section-how {
+  padding: 80px 0;
+}
+
+.how-feature {
+  padding: 0;
+}
+
+.how-feature > h4 {
+  font-weight: bolder;
+}
+
+.how-feature > p {
+  display: inline-block;
+  width: 180px;
+}
+
+/* Section subscribe */
+.section-subscribe {
+  background-image: url(../images/backgrounds/city.jpg);
+  color: #fff;
+  
+}
+
+.subscribe-heading {
+  padding-top: 80px;
+  margin: 0 auto;
+}
+
+.subscribe-form {
+  background-color: transparent;
+  border-color: #6AC88B;
+  height:65px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .subscribe-form {
+    width: 500px;
+  }
+}
+
+.subscribe-form:active,
+.subscribe-form:focus {
+  border-color: #6AC88B;
+}
+
+.subscribe-group {
+  padding-top: 35px;
+  padding-bottom: 80px;
+
+  font-size: 16px;
+
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.subscribe-group > input {
+  display: inline-block;
+  padding: 20px 15px;
+  border-radius-right: 0;
+}
+
+.btn-subscribe {
+  padding: 22px 25px;
+  font-weight: bolder;
+  height: 65px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+@media (max-width: 768px) {
+  .subscribe-form {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .btn-subscribe {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+  }
+}
+
+/* Section plan */
+.section-plan {
+  padding-top: 100px;
+}
+
+.section-plan .container .row .col-md-4 {
+  padding-bottom: 10px;
+}
+
+.plan-offer:hover {
+  border-color: #6AC88B;
+  transition: all .3s;
+}
+
+.plan-offer:hover .plan-price {
+  transition: all .3s;
+  background-color: #6AC88B;
+}
+
+.plan-offer:hover .plan-price h2,
+.plan-offer:hover .plan-price h1,
+.plan-offer:hover .plan-price span {
+  transition: all .3s;
+  color: #fff;
+}
+
+.plan-offer {
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+.plan-price {
+  padding-top: 15px;
+  background-color: #e3e3e3;
+  padding-bottom: 25px;
+}
+
+.plan-price > span {
+  color: #6AC88B;
+}
+
+.plan-heading {
+  font-weight: bold;
+  font-size: 36px;
+  color: #6AC88B;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.plan-features {
+  list-style: none;
+  padding-left: 0;
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+
+.plan-features > li {
+  padding: 15px 0;
+  display: block;
+  border-bottom: 1px solid #e3e3e3;
+
+  font-size: 14px;
+}
+
+/* Section signup */
+.section-signup {
+  padding: 100px 0;
+}
+
+.signup-heading {
+  color: #6AC88B;
+}
+
+.signup-text {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 660px;
+  padding-bottom: 40px;
+}
+
+.signup-button {
+  font-weight: bold;
+}
+
+/* Section partners */
+.section-partners {
+  padding: 15px 0;
+  background-color: #e3e3e3;
+}
+
+/* Section footer */
+.section-footer {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  background-color: #373737;
+}
+
+.footer-text {
+  display: block;
+  float: left;
+  color: #888888;
+}
+
+.footer-social {
+  margin: 0;
+  display: inline;
+  list-style: none;
+  float: right;
+}
+
+.footer-social li {
+  float: right;
+  padding: 5px;
+}
+
+.footer-social li a {
+  padding: 5px 7px;
+  height: 27px;
+  width: 27px;
+  display: inline-block;
+  background-color: #fff;
+  color: #373737;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.footer-social li a:hover {
+  background-color: #6AC88B;
+}

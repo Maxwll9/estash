@@ -1,0 +1,25 @@
+.btn {
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover {
+  background-color: #fff;
+  color: #6AC88B;
+}
+
+.btn-filled {
+  border-color: #6AC88B;
+  background-color: #6AC88B;
+  color: #fff;
+}
+
+.btn-filled:hover {
+  background-color: transparent;
+  color: #6AC88B;
+}

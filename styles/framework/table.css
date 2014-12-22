@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+}
+
+.table > thead > tr > th {
+   border-bottom: 3px solid #e3e3e3;
+   text-align: left;
+}
+
+.table > tbody > tr > td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.table > thead > tr > th:nth-child(1),
+.table > tbody > tr > td:nth-child(1) {
+  padding-left: 10px;
+}
+
+.table-striped > tbody > tr:nth-child(2n) {
+  background-color: #f9f9f9;
+}
