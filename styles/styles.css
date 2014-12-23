@@ -138,40 +138,35 @@ h1, h2, h3 {
 }
 
 .with-author {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
-.testimonials-dots {
-  position: absolute;
+.nav-dots {
+  width: 100%;
+  bottom: 11px;
+  height: 15px;
   display: block;
-  margin: 0 auto;
-  padding-left: 0;
-  list-style: none;
-  text-align: left;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.testimonials-dots li {
-  float: left;
-  padding: 0 10px;
-}
-
-.testimonials-dots li a {
+.nav-dots .nav-dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 10px;
+  position: relative;
+  border-radius: 100%;
   display: inline-block;
-  color: #000000;
+  background-color: #000000;
+}
 
-  text-decoration: none;
+.nav-dots .nav-dot:hover {
+  cursor: pointer;
+  background-color: #6AC88B;
   transition: all .3s;
 }
 
-.testimonials-dots li a:hover {
-  color: #6AC88B;
-}
-
-.testimonials-dots .active a {
-  color: #6AC88B;
+.nav-dots .active {
+  background-color: #6AC88B;
 }
 
 /* Section how */
